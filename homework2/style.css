@@ -117,7 +117,7 @@
 	}
 
 	ul.navigation li a {
-		animation: wildFlash 2.4s ease-in-out infinite;
+		animation: wildFlash 8s ease-in-out;
 	}
 
 	@media (prefers-reduced-motion: reduce) {
