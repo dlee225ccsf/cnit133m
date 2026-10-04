@@ -1,0 +1,249 @@
+	* {
+		box-sizing: border-box;
+	}
+
+	body, h1, h2, h3, p, img, ul, li {
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		background: #eaf8fb;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	p {
+		letter-spacing: .04em;
+		line-height: 21px;
+	}
+
+	div#header {
+		background-color: #333;
+		background-image: url(images/headerbkgd.png);
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+		color: #fff;
+		margin: 0 auto;
+		min-height: 130px;
+		padding: 45px 15px 15px;
+		width: 870px;
+	}
+
+	ul.navigation {
+		list-style: none;
+		margin-top: 20px;
+	}
+
+	ul.navigation li {
+		display: inline-block;
+		margin: 0 3px 5px;
+	}
+
+	ul.navigation li a {
+		background: #4a4a4a;
+		color: #fff;
+		border-radius: 2px;
+		border: 1px solid #595959;
+		display: inline-block;
+		padding: 3px 10px;
+		text-decoration: none;
+		transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		ul.navigation li a:hover {
+			animation: none;
+			background-color: #ff3d00;
+			box-shadow: 0 0 16px #ff3d00;
+			color: #fff;
+			transform: scale(1.08);
+		}
+
+		div.sidebar-left a:hover {
+			text-decoration: none;
+		}
+	}
+
+	@media (hover: none), (pointer: coarse) {
+		ul.navigation li a,
+		div.sidebar-left a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	}
+
+	@keyframes wildFlash {
+		0% {
+			background-color: #4a4a4a;
+			box-shadow: 0 0 0 transparent;
+			color: #fff;
+			transform: scale(1) rotate(0);
+		}
+		25% {
+			background-color: #00e5ff;
+			box-shadow: 0 0 18px #00e5ff;
+			color: #111;
+			transform: scale(1.08) rotate(-2deg);
+		}
+		50% {
+			background-color: #ff2bd6;
+			box-shadow: 0 0 18px #ff2bd6;
+			color: #111;
+			transform: scale(1.1) rotate(2deg);
+		}
+		75% {
+			background-color: #ffe600;
+			box-shadow: 0 0 18px #ffe600;
+			color: #111;
+			transform: scale(1.08) rotate(-2deg);
+		}
+		100% {
+			background-color: #4a4a4a;
+			box-shadow: 0 0 0 transparent;
+			color: #fff;
+			transform: scale(1) rotate(0);
+		}
+	}
+
+	ul.navigation li a {
+		animation: wildFlash 2.4s ease-in-out infinite;
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		ul.navigation li a {
+			animation: none;
+			transition: none;
+		}
+
+		ul.navigation li a:hover {
+			transform: none;
+		}
+	}
+
+	div.content {
+		margin: 15px auto;
+		width: 900px;
+	}
+
+	div.col-right {
+		float: right;
+		width: 660px;
+	}
+
+	div.sidebar-left {
+		float: left;
+		padding: 0 10px;
+		width: 200px;
+	}
+
+	div.sidebar-left a {
+		color: #445e64;
+	}
+
+.list {
+		border-bottom: 1px solid #c3dce1;
+		padding: 0 0 20px 15px;
+	}
+
+	.list li {
+		margin-bottom: 10px;
+	}
+
+	.list li a {
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 11px;
+	}
+
+	div#footer {
+		background-color: #c4d5d9;
+		margin: 0 auto;
+		padding: 15px;
+		text-align: center;
+		width: 900px;
+	}
+
+	.float-left {
+		float: left;
+		margin: 0 10px 10px 0;
+	}
+
+	.float-right {
+		float: right;
+	}
+
+	.float-right img {
+		margin: 0 0 10px 10px;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	@media screen and (max-width: 760px) {
+		body {
+			font-size: 16px;
+		}
+
+		div#header,
+		div.content,
+		div#footer {
+			width: 100%;
+			max-width: none;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		div#header {
+			min-height: auto;
+			background-position: center bottom;
+		}
+
+		ul.navigation li {
+			display: block;
+			margin: 0 0 10px;
+		}
+
+		ul.navigation li a {
+			display: block;
+			text-align: center;
+			padding: 10px;
+		}
+
+		div.content {
+			margin: 10px auto;
+		}
+
+		div.sidebar-left,
+		div.col-right {
+			float: none;
+			width: 100%;
+			padding: 0;
+		}
+
+		div.sidebar-left {
+			margin-bottom: 20px;
+		}
+
+		.float-left {
+			float: none;
+			display: block;
+			margin: 0 0 15px;
+			width: 100%;
+		}
+
+		.list {
+			padding-left: 20px;
+		}
+	}
