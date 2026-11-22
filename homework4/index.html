@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4a6fa5" />
+    <meta
+      name="description"
+      content="A simple Progressive Web App that explains PWAs and changes its background."
+    />
+    <title>PWA Background Explorer</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/icon-192.png" type="image/png" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <article class="card">
+        <header>
+          <p class="eyebrow">Web technology</p>
+          <h1>Progressive Web Applications</h1>
+        </header>
+
+        <section aria-labelledby="pwa-overview">
+          <h2 id="pwa-overview" class="visually-hidden">PWA overview</h2>
+          <p>
+            A Progressive Web Application combines the reach of the web with
+            app-like features. It uses responsive, device-independent HTML,
+            CSS, and JavaScript so the interface works well on screens of many
+            sizes.
+          </p>
+          <p>
+            PWAs can be installed through a supported browser and can use a web
+            app manifest, icons, HTTPS, and a service worker. Service workers
+            enable offline caching, faster repeat visits, and reliable loading
+            even when a network connection is unavailable.
+          </p>
+        </section>
+
+        <section class="controls" aria-label="PWA controls">
+          <div class="field">
+            <label for="backgroundSelect">Choose a background</label>
+            <select id="backgroundSelect" name="background">
+              <option value="">White</option>
+              <option value="lightblue">Light Blue</option>
+              <option value="lightgold">Light Gold</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="nameInput">Enter your name</label>
+            <input
+              id="nameInput"
+              name="name"
+              type="text"
+              autocomplete="name"
+              placeholder="Your name"
+            />
+            <p id="nameMessage" class="name-message" aria-live="polite"></p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

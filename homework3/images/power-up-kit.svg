@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title">
+  <title id="title">Pixel Power-Up sensory kit</title>
+  <rect width="640" height="420" fill="#fff0f6"/>
+  <g fill="#ffb5ce">
+    <rect x="78" y="115" width="50" height="50"/><rect x="128" y="65" width="50" height="50"/>
+    <rect x="462" y="260" width="48" height="48"/><rect x="510" y="212" width="48" height="48"/>
+  </g>
+  <g transform="translate(184 76)">
+    <path d="M104 0h64v48h48v48h48v64h-48v48h-48v48h-64v-48H56v-48H8V96h48V48h48z" fill="#4930bd" stroke="#282342" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M120 26h32v48h48v32h48v32h-48v48h-48v48h-32v-48H72v-48H24v-32h48V88h48z" fill="#ffd166"/>
+    <rect x="120" y="96" width="32" height="32" fill="#fff"/>
+    <rect x="152" y="128" width="32" height="32" fill="#fff"/>
+  </g>
+  <g fill="#42d6c5">
+    <rect x="120" y="255" width="30" height="30"/><rect x="150" y="285" width="30" height="30"/>
+    <rect x="480" y="90" width="28" height="28"/><rect x="508" y="118" width="28" height="28"/>
+  </g>
+  <text x="320" y="370" text-anchor="middle" fill="#4930bd" font-family="monospace" font-size="24" font-weight="700">FIND YOUR NEXT POWER-UP</text>
+</svg>

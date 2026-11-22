@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title">
+  <title id="title">Pixel Quest block-building game</title>
+  <rect width="640" height="420" fill="#eae5ff"/>
+  <path d="M0 315h640v105H0z" fill="#c7f5ed"/>
+  <g fill="#ffd166">
+    <rect x="75" y="80" width="24" height="24"/><rect x="99" y="56" width="24" height="24"/>
+    <rect x="520" y="115" width="18" height="18"/><rect x="538" y="97" width="18" height="18"/>
+  </g>
+  <g stroke="#282342" stroke-width="8" stroke-linejoin="round">
+    <path d="M130 235h110v80H130z" fill="#42d6c5"/>
+    <path d="M240 190h110v125H240z" fill="#ff7f91"/>
+    <path d="M350 235h110v80H350z" fill="#ffd166"/>
+    <path d="M240 190l55-45 55 45z" fill="#6246ea"/>
+    <path d="M285 268h25v47h-25z" fill="#4930bd"/>
+  </g>
+  <g fill="#fff">
+    <rect x="155" y="258" width="18" height="18"/><rect x="195" y="258" width="18" height="18"/>
+    <rect x="375" y="258" width="18" height="18"/><rect x="415" y="258" width="18" height="18"/>
+  </g>
+  <text x="320" y="370" text-anchor="middle" fill="#4930bd" font-family="monospace" font-size="24" font-weight="700">BUILD YOUR OWN WORLD</text>
+</svg>

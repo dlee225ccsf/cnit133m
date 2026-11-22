@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title">
+  <title id="title">Pixel Pals stacking game characters</title>
+  <rect width="640" height="420" fill="#e7fbff"/>
+  <g fill="#ffd166">
+    <rect x="85" y="83" width="22" height="22"/><rect x="107" y="61" width="22" height="22"/>
+    <rect x="520" y="145" width="22" height="22"/><rect x="542" y="123" width="22" height="22"/>
+  </g>
+  <g stroke="#282342" stroke-width="8" stroke-linejoin="round">
+    <path d="M190 240h260v86H190z" fill="#42d6c5"/>
+    <path d="M226 155h188v85H226z" fill="#ff8c69"/>
+    <path d="M264 70h112v85H264z" fill="#a98cff"/>
+  </g>
+  <g fill="#282342">
+    <rect x="293" y="103" width="14" height="18"/><rect x="333" y="103" width="14" height="18"/>
+    <rect x="270" y="186" width="16" height="18"/><rect x="354" y="186" width="16" height="18"/>
+    <rect x="250" y="273" width="16" height="18"/><rect x="374" y="273" width="16" height="18"/>
+  </g>
+  <path d="M305 132h30m-75 91h108m-84 85h60" fill="none" stroke="#282342" stroke-width="8" stroke-linecap="square"/>
+  <text x="320" y="375" text-anchor="middle" fill="#4930bd" font-family="monospace" font-size="24" font-weight="700">STACK UP THE FUN</text>
+</svg>

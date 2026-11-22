@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title">
+  <title id="title">Pixel Play Games arcade controller</title>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#241b53"/>
+      <stop offset="1" stop-color="#4930bd"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#8c7bea" stroke-opacity=".2" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg)"/>
+  <rect width="900" height="600" fill="url(#grid)"/>
+  <path d="M0 470h96v-24h96v24h96v24h96v-24h96v24h96v-24h96v24h96v-24h96v24h96v106H0z" fill="#20194a" opacity=".7"/>
+  <g fill="#ffd166">
+    <rect x="100" y="102" width="24" height="24"/><rect x="124" y="78" width="24" height="24"/>
+    <rect x="738" y="142" width="20" height="20"/><rect x="758" y="122" width="20" height="20"/>
+    <rect x="680" y="400" width="18" height="18"/><rect x="698" y="382" width="18" height="18"/>
+  </g>
+  <g fill="#42d6c5">
+    <rect x="205" y="202" width="18" height="18"/><rect x="223" y="184" width="18" height="18"/>
+    <rect x="706" y="275" width="22" height="22"/><rect x="728" y="253" width="22" height="22"/>
+  </g>
+  <g transform="translate(150 185)">
+    <path d="M95 80h410c42 0 68 27 82 69l49 147c13 39-15 75-53 75-18 0-34-8-48-22l-60-61H125l-60 61c-14 14-30 22-48 22-38 0-66-36-53-75l49-147c14-42 40-69 82-69z" fill="#171331" stroke="#100d27" stroke-width="16"/>
+    <path d="M112 102h376c34 0 52 20 63 52l43 132c8 23-7 43-29 43-11 0-20-5-29-14l-70-70H134l-70 70c-9 9-18 14-29 14-22 0-37-20-29-43l43-132c11-32 29-52 63-52z" fill="#f6f2ff"/>
+    <rect x="130" y="165" width="40" height="112" rx="5" fill="#4930bd"/>
+    <rect x="94" y="201" width="112" height="40" rx="5" fill="#4930bd"/>
+    <rect x="352" y="165" width="42" height="42" rx="21" fill="#ff6384"/>
+    <rect x="414" y="207" width="42" height="42" rx="21" fill="#42d6c5"/>
+    <rect x="352" y="249" width="42" height="42" rx="21" fill="#ffd166"/>
+    <rect x="290" y="207" width="42" height="42" rx="21" fill="#6246ea"/>
+    <rect x="238" y="178" width="26" height="13" rx="6" fill="#b8afde"/>
+    <rect x="238" y="208" width="26" height="13" rx="6" fill="#b8afde"/>
+    <rect x="250" y="190" width="13" height="26" rx="6" fill="#b8afde"/>
+  </g>
+  <g fill="#fff">
+    <rect x="296" y="506" width="20" height="20"/><rect x="316" y="506" width="20" height="20"/>
+    <rect x="336" y="506" width="20" height="20"/><rect x="376" y="506" width="20" height="20"/>
+    <rect x="396" y="506" width="20" height="20"/><rect x="416" y="506" width="20" height="20"/>
+    <rect x="456" y="506" width="20" height="20"/><rect x="476" y="506" width="20" height="20"/>
+    <rect x="496" y="506" width="20" height="20"/>
+  </g>
+  <text x="450" y="557" text-anchor="middle" fill="#ffd166" font-family="monospace" font-size="24" font-weight="700" letter-spacing="5">PRESS START TO PLAY</text>
+</svg>
